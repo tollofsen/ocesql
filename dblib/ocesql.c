@@ -151,7 +151,7 @@ _ocesqlConnectMain(struct sqlca_t *st, char *name, char *user, char *passwd, cha
 	int autocommit;
 	int dbtype;
 
-	char *cencoding = "SJIS";
+	char *cencoding = "UTF8";
 
 	dbtype = atoi(ocdb_getenv("OCDB_DB_TYPE", "1"));
 
